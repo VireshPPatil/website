@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage design</title>
+    <style>
+         *{
+        margin: 0;
+        padding: 0;
+        }
+        .main{
+        width: 100%;
+        background: url(2.jpeg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        }
+        .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+        }
+        .icon{
+        width:200px;
+        float:left;
+        height: 70px;
+        }
+        .logo{
+        color:orangered;
+        font-size: 35px;
+        font-family: arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        }
+        .menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+        }
+        ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+        }
+        ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: arial;
+        font-weight: bold;
+        transistion: 0.45 ease-in-out;
+        }
+        ul li a:hover{
+        color: green;
+        }
+        .search{
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+        }
+        .srch{
+        font-family: 'Times New Roman';
+        width:200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid orange;
+        margin-top: 13px;
+        color:white;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        }
+        .btn{
+        width: 100px;
+        height: 40px;
+        background: orange;
+        border: 2px solid orange;
+        margin-top: 13px;
+        color: white;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        }
+        .btn:focus{
+        outline: none;
+        }
+        .srch:focus{
+        outline: none;
+        }
+        .content{
+        width: 900px;
+        height: auto;
+        margin: auto;
+        color: orange;
+        position: relative;
+        }
+        .content .par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+        font-size: 19px;
+        color: white;
+        }
+        .content h2{
+        font-family: 'Times New Roman';
+        font-size: 50px;
+        padding-left: 30px;
+        padding-right: 267px;
+        margin-top: 50px;
+        margin-right: 49px;
+        letter-spacing: 2px;
+        }
+        .content .cn{
+        width: 160px;
+        height: 40px;
+        background: orange;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: ponter;
+        }
+        .content .cn a{
+        text-decoration: none;
+        color: black;
+        transition: .3s ease;
+        }
+        .cn:hover{
+        background-color: white;
+        }
+        .content span{
+        color: orange;
+        font-size: 20px;
+        padding-right:60%;
+        }
+        .form{
+        width: 250px;
+        height: 380px;
+        background: rgb(141, 163, 42);
+        position: absolute;
+        top: 122px;
+        left: 1013px;
+        border-radius: 10px;
+        padding: 25px;
+        }
+        .form h2{
+        width: 220x;
+        font-family: sans-serif;
+        text-align: center;
+        color: orangered;
+        font-size: 22px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 8px;
+        }
+        .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid rgb(0, 255, 98);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+        }
+        .form input:focus{
+        outline: none;
+        }
+        ::placeholder{
+        color: white;
+        font-family: arial;
+        }
+        .btnn{
+        width: 240px;
+        height: 40px;
+        background: orangered;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        transition: 0.4s else;
+        }
+        .btnn:hover{
+        background: white;
+        color: orangered;
+        }
+        .btnn a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        }
+        .form .link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+        }
+        .form .link a{
+        text-decoration: none;
+        color:orangered;
+        }
+        .liw{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+        }
+        .icon a{
+            text-decoration: none;
+            color: white;
+        }
+        .icon ion-icon{
+            color: white;
+            font-size: 28px;
+            padding-left: 8px;
+            padding-top: 5px;
+        }
+        .icon ion-icon:hover{
+            color: orangered;
+        }
+    </style>
+   </head>
+<body>
+    
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">PraRoz</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="mysearch" paceholder="Tap To Search">
+                <a href="#"><button class="btn">search</button></a>
+            </div>
+<div class="content">
+    <br>
+    <br>
+    <h2>web design & development cource</h2>
+    <br>
+    <p class="par">A login page is a user interface that allows individuals to enter their credential, such as username and password,<br>to gain access to a secure system or application,<br> It often includes options for password recovery and account creation.</p>
+    <br>
+    <button class="cn"><a href="https://join.com">JOIN US</a></button>
+</div>
+<div class="form">
+    <h2>LOGIN HERE</h2>
+    <input type="email" name="MyEmail" placeholder="Enter Email Here">
+    <input type="Password" name="" placeholder="Enter Password Here">
+    <button class="btnn"><a href="https://gmail.com">login</a></button>
+
+    <p class="link">Dont Have An Account<br>
+    <a href="#">Sign Up</a> Here</a></p>
+    <p class="liw">Log In With</p>
+
+    <div class="icon">
+        <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://twitter.com" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="https://google.com" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+        <a href="https://instagram.com" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://skype.com" target="_blank"><ion-icon name="logo-skype"></ion-icon></a>
+    </div>
+</div>
+</div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
